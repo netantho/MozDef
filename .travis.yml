@@ -6,5 +6,5 @@ install:
   - pip install -q -r requirements.txt --use-mirrors
   - pip install pep8 --use-mirrors
 script:
-  - "pep8i --exclude lib/mozdef --ignore=E128 ."
+  - "pep8 --exclude lib/mozdef --ignore=E128 ."
 
